@@ -1,0 +1,18 @@
+name: code_assistant
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - python-dotenv
+  - jupyterlab
+  - ipywidgets
+  - pip:
+    - openai
+    - anthropic
+    - google-genai
+    - gradio
+    - ollama
+    - setuptools
+    - speedtest-cli
